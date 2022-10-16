@@ -1,0 +1,26 @@
+@keyframes rotateIn    {
+    from    {
+        transform: scale(0.1) rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(-10%);
+    }
+
+    70% {
+        transform: rotate(3deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes dropdown {
+    from {
+        top: -1000px;
+    }
+    to  {
+        top: 45px;
+    }
+}

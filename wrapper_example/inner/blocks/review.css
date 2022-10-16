@@ -1,0 +1,120 @@
+.review {
+    margin-top: 94px;
+}
+
+.container--review  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.review__list   {
+    column-count: 2;
+    column-gap: 30px    ;
+}
+
+.review__item   {
+    background-color: #F4F5F5;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+.review__item:last-child   {
+    margin-bottom: 0px;
+}
+
+.review__user    {
+    padding: 50px 0px 0px 28px;
+    display: flex;
+}
+
+.review--about__user    {
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 161px;
+}
+
+.review--account__name  {
+    color: #1A1B1E;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42px;
+    margin-right: 4px;
+}
+
+.review__tag    {
+    font-size: 13px;
+    line-height: 17px;
+    padding: 10px 25px;
+    background-color: #E7E7E7;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 35px;
+    color: #303030;
+}
+
+.review__tag--active  {
+    background-color: #F2D4C9;
+}
+
+.review__tag--actions   {
+    padding: 10px 15px;
+}
+
+.review--account__about {
+    width: 500px;
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 33px;
+}
+
+.review--about__title   {
+    color: #202020;
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 3px;
+}
+
+.review--about__text    {
+    color: #818181;
+    line-height: 27px;
+    margin-bottom: 45px;
+}
+
+.review--about--date    {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1A1B1E;
+    line-height: 27px;
+}
+
+.review__pager  {
+    padding: 10px;
+}
+
+.input--review  {
+    background-color: #F4F5F5;
+    padding-bottom: 95px;
+}
+
+.input--review__title  {
+    color: #202020;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    padding-top: 80px;
+    margin-bottom: 55px;
+}
+
+.buttons__list  {
+    display: flex;  
+    justify-content: flex-end;
+}
+
+.btn--review    {
+    width: 168px;
+    text-align: center;
+    padding: 17px 0px;
+    margin-left: 10px;
+}

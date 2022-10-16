@@ -1,0 +1,25 @@
+.footer {
+    background-color: rgb(23, 25, 28);
+
+}
+.footer__container  {
+    border-top: 1px solid rgb(255 255 255 / 10%);
+    padding: 42px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__contacts__info {
+    margin-bottom: 4px;
+    color: #9A9A9A;
+}
+.footer__col    {
+    display: flex;
+    align-items: center;
+}
+.footer__logo   {
+    margin-right: 127px;
+}
+.footer__massangers {
+    margin-right: 73px;
+}

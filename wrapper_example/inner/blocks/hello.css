@@ -1,0 +1,27 @@
+.container--hello   {
+    margin: auto;
+    text-align: center;
+    margin-top: 158px;
+    background: url(../hello_images/rec.png) center center / cover no-repeat;
+    width: 1130px;
+    height: 645px;
+}
+.menu--hello    {
+    opacity: 0;
+    padding-top: 220px;
+    animation: rotateIn 0.5s;
+    animation-fill-mode: forwards;
+}
+.hello__pic {
+    position: relative;
+}
+.logo--hello    {
+    display: block;
+    margin-bottom: 30px;
+}
+.hello--button  {
+    padding: 18px 58px;
+    opacity: 0%;
+    animation: hello 2s;
+    animation-fill-mode: forwards;
+}

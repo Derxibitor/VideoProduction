@@ -1,0 +1,42 @@
+.stocks {
+    margin-bottom: 145px;
+}
+.stocks__title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49px;
+    margin-bottom: 51px;
+}
+.stocks__item {
+    position: relative;
+    min-height: 394px;
+    width: 557px;
+}
+.stocks__list   {
+    margin-bottom: 46px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.stocks__text {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    min-height: 170px;
+    padding: 26px 83px 26px 30px;
+}
+.stocks__date {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+.stocks__offer {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 7px;
+}
+.stocks__info {
+    line-height: 21px;  
+}

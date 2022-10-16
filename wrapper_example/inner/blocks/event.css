@@ -1,0 +1,15 @@
+.event  {
+    position: relative;
+    height: 363px;
+    background: url(../review_images/party.png) center right 200px   / contain  no-repeat;
+    background-color: #373737;
+}
+.event__title   {
+    font-weight: 700;
+    line-height: 65px;
+    font-size: 48px;
+    color: #FFFFFF;
+    width: 550px;
+    margin-top: 76px;
+    padding-top: 115px;
+}

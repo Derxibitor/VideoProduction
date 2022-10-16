@@ -1,0 +1,51 @@
+.massangers__list   {
+    display: flex;
+}
+.massangers__item   {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    margin-right: 10px;
+    background:  center center no-repeat;
+}
+.massangers__item:last-child   {
+    margin-right: 0px;
+}
+
+
+
+.massangers__item--icon-tg {
+    width: 36px; height: 36px;
+    background: url(../main_images/footer__sprites.png) -66px -66px;
+}
+.massangers__item--icon-vk {
+    width: 36px; height: 36px;
+    background: url(../main_images/footer__sprites.png) -122px -10px;
+}
+.massangers__item--icon-fb {
+    width: 36px; height: 36px;
+    background: url(../main_images/footer__sprites.png) -122px -66px;
+}
+.massangers__item--icon-in {
+    width: 36px; height: 36px;
+    background: url(../main_images/footer__sprites.png) -10px -122px;
+}
+
+
+.massangers__item--icon-tg:hover {
+    width: 36px; height: 36px;
+    background: url(../main_images/footer__sprites.png) -10px -66px;
+}
+.massangers__item--icon-vk:hover {
+    width: 36px; height: 36px;
+    background: url(../main_images/footer__sprites.png) -66px -10px;
+}
+.massangers__item--icon-fb:hover {
+    width: 36px; height: 36px;
+    background: url(../main_images/footer__sprites.png) -10px -10px;
+}
+.massangers__item--icon-in:hover {
+    width: 36px; height: 36px;
+    background: url(../main_images/footer__sprites.png) -66px -122px;
+}

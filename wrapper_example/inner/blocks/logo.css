@@ -1,0 +1,9 @@
+.logos__list   {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+    
+}
+.logos__item    {
+    text-align: center;
+}

@@ -1,0 +1,128 @@
+.partners   {
+    background-color: #F4F5F5;
+    color: #1A1B1E;
+    width: 100%;
+    padding-top: 87px;
+    padding-bottom: 110px;
+}
+.partners__title    {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 75px;
+}
+.partners__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 58px;
+}
+.partners__item {
+    flex-grow: 1;
+    min-width: 200px;
+    margin-right: 80px;
+}
+.partners__item:nth-child(4n + 4) {
+    margin-right: 0px;
+    text-align: center;
+}
+
+
+
+.bg-divico {
+    filter: grayscale(100%);
+    width: 178px; height: 61px;
+    background: url(../services_images/sevices__sprite.png) -10px -10px;
+}
+
+.bg-ds {
+    filter: grayscale(100%);
+    width: 68px; height: 55px;
+    background: url(../services_images/sevices__sprite.png) -329px -163px;
+}
+
+.bg-park {
+    filter: grayscale(100%);
+    width: 98px; height: 73px;
+    background: url(../services_images/sevices__sprite.png) -10px -255px;
+}
+
+.bg-zvibes {
+    filter: grayscale(100%);
+    width: 129px; height: 72px;
+    background: url(../services_images/sevices__sprite.png) -10px -163px;
+}
+
+.bg-rosvideo {
+    filter: grayscale(100%);
+    width: 206px; height: 44px;
+    background: url(../services_images/sevices__sprite.png) -208px -10px;
+}
+
+.bg-zavod {
+    filter: grayscale(100%);
+    width: 150px; height: 56px;
+    background: url(../services_images/sevices__sprite.png) -159px -163px;
+}
+
+.bg-pixel {
+    filter: grayscale(100%);
+    width: 206px; height: 39px;
+    background: url(../services_images/sevices__sprite.png) -205px -91px;
+}
+
+.bg-expotv {
+    filter: grayscale(100%);
+    width: 175px; height: 52px;
+    background: url(../services_images/sevices__sprite.png) -10px -91px;
+}
+
+
+
+.bg-divico:hover {
+    filter: grayscale(0%);
+    width: 178px; height: 61px;
+    background: url(../services_images/sevices__sprite.png) -10px -10px;
+}
+
+.bg-ds:hover {
+    filter: grayscale(0%);
+    width: 68px; height: 55px;
+    background: url(../services_images/sevices__sprite.png) -329px -163px;
+}
+
+.bg-park:hover {
+    filter: grayscale(0%);
+    width: 98px; height: 73px;
+    background: url(../services_images/sevices__sprite.png) -10px -255px;
+}
+
+.bg-zvibes:hover {
+    filter: grayscale(0%);
+    width: 129px; height: 72px;
+    background: url(../services_images/sevices__sprite.png) -10px -163px;
+}
+
+.bg-rosvideo:hover {
+    filter: grayscale(0%);
+    width: 206px; height: 44px;
+    background: url(../services_images/sevices__sprite.png) -208px -10px;
+}
+
+.bg-zavod:hover {
+    filter: grayscale(0%);
+    width: 150px; height: 56px;
+    background: url(../services_images/sevices__sprite.png) -159px -163px;
+}
+
+.bg-pixel:hover {
+    filter: grayscale(0%);
+    width: 206px; height: 39px;
+    background: url(../services_images/sevices__sprite.png) -205px -91px;
+}
+
+.bg-expotv:hover {
+    filter: grayscale(0%);
+    width: 175px; height: 52px;
+    background: url(../services_images/sevices__sprite.png) -10px -91px;
+}

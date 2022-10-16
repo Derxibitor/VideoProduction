@@ -1,0 +1,37 @@
+.contacts__work-hours__info:hover .dropdown  {
+    /* animation: dropdown 1s forwards; */
+    animation: dropdown forwards;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.dropdown   {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    border-radius: 5px;
+    top: -1000px;
+    transition: 0s;
+    opacity: 0.0;
+}
+
+.dropdown__list {
+    margin-top: -10px;
+    text-align: center;
+    height: 70px;
+    width: 157px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-top: 14px;
+    padding-left: 18px;
+}
+
+.dropdown__item {
+    text-align: left;
+}
+
+.dropdown__text {
+    font-size: 13px;
+    color: #1E1F20;
+    line-height: 21px;
+}

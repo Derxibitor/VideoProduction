@@ -1,0 +1,16 @@
+.header {
+    padding-top: 29px;
+    margin-bottom: 155px;
+}
+.header--services {
+    margin-bottom: 0px;
+    padding-top: 25px;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__menu   {
+    padding-left: 45px;
+}
