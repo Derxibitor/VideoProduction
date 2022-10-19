@@ -18,12 +18,10 @@
 .dropdown__list {
     margin-top: -10px;
     text-align: center;
-    height: 70px;
-    width: 157px;
+    width: 159px;
     background: #FFFFFF;
     border-radius: 5px;
-    padding-top: 14px;
-    padding-left: 18px;
+    padding: 14px 18px;
 }
 
 .dropdown__item {

@@ -25,7 +25,7 @@
                                     <a href="index.html" class="menu__link">Главная</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="services.html" class="menu__link">Услуги</a>
+                                    <a href="services.html" class="menu__link menu__link--active">Услуги</a>
                                 </li>
                                 <li class="menu__item">
                                     <a href="review.html" class="menu__link">Отзывы</a>
@@ -34,7 +34,20 @@
                         </nav>
                         <div class="contacts header__contacts">
                             <a href="tel:88007003030" class="contacts__phone">8 800 700 30 30</a>
-                            <a href="" class="contacts__work-hours">График работы</a>
+                            <div class="contacts__work-hours__info">
+                                <a href="" class="contacts__work-hours">График работы</a>
+                                <div class="dropdown">
+                                    <div class="triangle"></div>
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__item">
+                                            <p class="dropdown__text"> <span class="bold">пн-вс: 09:00 - 20:00</span> </p>
+                                        </li>
+                                        <li class="dropdown__item">
+                                            <p class="dropdown__text"><span class="semi__bold">Обед: 14:00-14:30</span></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </header>
@@ -148,7 +161,7 @@
                                 <a href="index.html" class="menu__link">Главная</a>
                             </il>
                             <il class="menu__item">
-                                <a href="services.html" class="menu__link">Услуги</a>
+                                <a href="services.html" class="menu__link menu__link--active">Услуги</a>
                             </il>
                             <il class="menu__item">
                                 <a href="review.html" class="menu__link">Отзывы</a>

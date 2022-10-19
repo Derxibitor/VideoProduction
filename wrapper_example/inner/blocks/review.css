@@ -1,11 +1,12 @@
 .review {
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 77px;
 }
 
 .container--review  {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 51px;
 }
 
 .review__list   {
@@ -14,26 +15,27 @@
 }
 
 .review__item   {
+    padding: 50px 31px 32px 28px;
     background-color: #F4F5F5;
     border-radius: 5px;
     margin-bottom: 17px;
+    display: inline-block;
 }
 .review__item:last-child   {
     margin-bottom: 0px;
 }
 
 .review__user    {
-    padding: 50px 0px 0px 28px;
     display: flex;
+    align-items: center;
+    margin-bottom: 27px;
 }
 
-.review--about__user    {
-    display: inline-block;
-    padding-top: 30px;
-    margin-left: 161px;
+.review__about-user    {
+    margin-left: 20px;
 }
 
-.review--account__name  {
+.review__account-name  {
     color: #1A1B1E;
     font-weight: 700;
     font-size: 24px;
@@ -47,7 +49,6 @@
     padding: 10px 25px;
     background-color: #E7E7E7;
     display: inline-block;
-    margin-right: 30px;
     border-radius: 35px;
     color: #303030;
 }
@@ -60,14 +61,11 @@
     padding: 10px 15px;
 }
 
-.review--account__about {
-    width: 500px;
+.review__account-about {
     margin: auto;
-    margin-top: 60px;
-    padding-bottom: 33px;
 }
 
-.review--about__title   {
+.review__about-title   {
     color: #202020;
     font-weight: 700;
     line-height: 42px;
@@ -76,13 +74,13 @@
     padding-left: 3px;
 }
 
-.review--about__text    {
+.review__about-text    {
     color: #818181;
     line-height: 27px;
     margin-bottom: 45px;
 }
 
-.review--about--date    {
+.review__about-date    {
     font-size: 14px;
     font-weight: 600;
     color: #1A1B1E;
@@ -93,12 +91,13 @@
     padding: 10px;
 }
 
-.input--review  {
+.input-review  {
     background-color: #F4F5F5;
-    padding-bottom: 95px;
+    padding-bottom: 98px;
+    padding-top: 80px;
 }
 
-.input--review__title  {
+.input-review__title  {
     color: #202020;
     font-weight: 800;
     font-size: 36px;

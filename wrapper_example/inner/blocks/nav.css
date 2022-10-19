@@ -15,6 +15,6 @@
 .menu__link {
     transition: 0.5s;
 }
-.menu__link:hover {
+.menu__link:hover, .menu__link--active {
     color: #FF3D00;
 }

@@ -1,14 +1,15 @@
 .container--hello   {
     margin: auto;
     text-align: center;
-    margin-top: 158px;
     background: url(../hello_images/rec.png) center center / cover no-repeat;
     width: 1130px;
     height: 645px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menu--hello    {
     opacity: 0;
-    padding-top: 220px;
     animation: rotateIn 0.5s;
     animation-fill-mode: forwards;
 }

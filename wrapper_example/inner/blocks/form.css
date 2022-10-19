@@ -1,22 +1,23 @@
-.form--row  {
+.form__row  {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     justify-content: space-between;
-}
-
-.form--row input {
-    width: 557px;
 }
 
 .form__input    {
     flex: 1;
     margin-right: 30px;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 4px;
     background-color: white;
     padding: 22px 30px;
     font-size: 18px;
     color: #202123;
+}
+
+.form__input:focus    {
+    outline: 0;
+    border-color: #CCCCCC;
 }
 
 .form__input--textarea  {
@@ -39,19 +40,19 @@
     width: 440px;
     color: #1A1B1E;
     font-size: 18px;
+    padding-top: 10px;
 }
 
 .controls__list {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    margin-top: -10px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+    gap: 8px 14px;
 }
 
 .controls__item {
-    margin-right: -10px;
-    margin-bottom: 10px;
+    
 }
 
 .controls__elem {

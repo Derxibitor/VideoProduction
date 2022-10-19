@@ -57,6 +57,9 @@ textarea    {
     min-width: 100vw;
     min-height: 100vh;
     background: url(../hello_images/bg.png) center center / cover  no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn {
